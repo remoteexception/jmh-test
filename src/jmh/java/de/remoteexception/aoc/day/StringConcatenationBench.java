@@ -26,8 +26,8 @@ public class StringConcatenationBench {
 
     @Setup
     public void prepare() {
-        strings = new String[1000000];
-        for (int i = 0; i < 1000000; i++) {
+        strings = new String[1000];
+        for (int i = 0; i < 1000; i++) {
             strings[i] = "test" + i;
         }
     }
